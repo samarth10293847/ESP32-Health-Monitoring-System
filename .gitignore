@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Local configuration and secrets
+config.h
+secrets.h
+.env.*
+
+# Generated database and local logs
+readings.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Arduino build/editor files
+build/
+.cache/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Optional local screenshots (keep folder using .gitkeep)
+screenshots/*
+!screenshots/.gitkeep
